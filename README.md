@@ -1,2 +1,17 @@
 # Fpro-Play_Submissions-Grabber
-Short script to retrieve program submissions on the fpro_play website used in subject programming fundamentals
+Short script to retrieve program submissions on the fpro_play website that was used in subject programming fundamentals of the Master in computer engineering couse [MIEIC]
+
+### Requires
+- html2text (you can get this using pip for example)
+- a valid username and token (token is stored in your browser's cookies OR a valid login link (which you can get by cleaning your browser cookies, entering the website and after inserting your email you will receive in your email the link you need)
+
+### Output
+
+Only the completed submissions will be retrieved, wrong or incomplete exercises won't be downloaded.
+
+The files will be stored in folders matching each of the topics, in the same folder where this script is run.
+
+Files are stored in .py extension and utf-8 encoding.
+
+The files contain the question and your answer.
+
