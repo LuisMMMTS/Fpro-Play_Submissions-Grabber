@@ -15,3 +15,7 @@ Files are stored in .py extension and utf-8 encoding.
 
 The files contain the question and your answer.
 
+## Warning
+If you have previously used the program, the files will be overwritten so make sure to save your changes online, on a different folder or under a different name
+
+Do not force close or some files may be incomplete or may still be open on the background not and you won't be able to delete or edit them while they're not closed.
