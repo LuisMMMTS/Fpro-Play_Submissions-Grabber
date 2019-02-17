@@ -2,7 +2,7 @@
 Short script to retrieve program submissions on the fpro_play website that was used in subject programming fundamentals of the Master in computer engineering couse [MIEIC]
 
 ### Requires
-- html2text (you can get this using pip for example)
+- html2text (you can get this using pip or copying this content: https://github.com/Alir3z4/html2text/tree/master/html2text into the folder where you'll run the script)
 - a valid username and token (token is stored in your browser's cookies OR a valid login link (which you can get by cleaning your browser cookies, entering the website and after inserting your email you will receive in your email the link you need)
 
 ### Output
