@@ -63,7 +63,10 @@ def writing(pasta,file,link):
             comment=code[i].split("<p>")[1]
             comment=code[i].split("</code>")
         if '<textarea name="code"' in code[i]:
-            codigo=code[i].split("autofocus>")[1]
+            try:
+                codigo=code[i].split("autofocus disabled>")[1]
+            except:
+                codigo=code[i].split("autofocus>")[1]
             codigo=html2text.html2text(codigo)[:-2]
             j=i
             while "</textarea>" not in code[j]:
